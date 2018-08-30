@@ -1,2 +1,2 @@
 # Hayak
-type F A S T E R................
+Type like the Flash in a flash

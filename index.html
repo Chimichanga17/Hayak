@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .correct {
+            color: skyblue;
+            font-size: 22px;
+        }
+
+        .typo {
+            color: #f00;
+            font-size: 22px;
+        }
+    </style>
+    <title>Hayak</title>
+</head>
+
+<body>
+    <div id="app" class="container mt-2">
+        <h1>{{ title }}</h1>
+        <div class="row">
+            <div class="col-8">
+                <div class="paragraph" v-html="outputHTML">
+
+                </div>
+                <div class="typer mt-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="start typing here" v-model="typedText"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
