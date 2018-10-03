@@ -1,0 +1,19 @@
+{
+  "name": "hayak",
+  "version": "1.0.0",
+  "description": "type like flash",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashank-sj/Hayak.git"
+  },
+  "author": "shashank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashank-sj/Hayak/issues"
+  },
+  "homepage": "https://github.com/shashank-sj/Hayak#readme"
+}
